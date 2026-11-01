@@ -2241,7 +2241,7 @@ function runDrill(set) {
 /* ส่งข้อมูลเชิงคุณภาพเข้า Google Sheet (D14 = ส่ง · ครู deploy Code GS/IUPAC_AppsScript.gs เอง)
    ข้อมูลที่ส่ง: เลขประจำตัว ชื่อ ห้อง (ที่ผู้เล่นกรอกเอง) · โมดูล กะ ขวด · ชื่อฉลากที่ประกอบ · ถูก/ผิด · ชนิดความผิด · จำนวนผิด/คำใบ้ — ไม่ใช่คะแนน E1
    ไม่ตั้ง URL = ไม่ส่งอะไรออกจากเครื่อง (เล่นได้ปกติ) · ส่งไม่สำเร็จ → เข้าคิว ส่งซ้ำเมื่อส่งครั้งต่อไปได้ */
-var DEFAULT_GAS_URL = '';           /* ครูใส่ URL (.../exec) ที่นี่แล้ว build ใหม่ หรือให้ผู้เล่นวางใน ⚙ */
+var DEFAULT_GAS_URL = 'https://script.google.com/macros/s/AKfycbwx-7-kN90IUnVJsse4WYLxuLLBc6QbtZOehivtfPZNAjxiF6c-lyq91Nx1rVMOGma6/exec';           /* ครูใส่ URL (.../exec) ที่นี่แล้ว build ใหม่ หรือให้ผู้เล่นวางใน ⚙ */
 var Net = (function () {
   var KEY = 'iupacq3-net', cfg = null, queue = [], online = null, sessionStart = Date.now();
   function load() {
